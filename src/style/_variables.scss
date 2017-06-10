@@ -1,0 +1,18 @@
+$color-primary-dark: #3B3B48;
+$color-text: rgb(146, 146, 154);
+$color-pink: #FDA241;
+$color-purple: #EA6490;
+
+
+$breakpoint-sm: 640px;
+$breakpoint-md: 960px;
+$breakpoint-lg: 1200px;
+$breakpoint-xlg: 1600px;
+$breakpoint-xs-max: ($breakpoint-sm - 1);
+$breakpoint-sm-max: ($breakpoint-md - 1);
+$breakpoint-md-max: ($breakpoint-lg - 1);
+$breakpoint-lg-max: ($breakpoint-xlg - 1);
+
+
+$font-mono: 'Roboto Mono', monospace;
+$font-sans: 'Lato', sans-serif;

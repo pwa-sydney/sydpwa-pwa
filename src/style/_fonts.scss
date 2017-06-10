@@ -1,0 +1,40 @@
+/* latin */
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Mono Light'), local('RobotoMono-Light'), url('/assets/fonts/RobotoMono_Light.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Lato (hairline, italic) */
+@font-face {
+  font-family: Lato;
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  src: url("/assets/fonts/Lato_Hairline.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Lato (light, regular) */
+@font-face {
+  font-family: Lato;
+  font-weight: 300;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  src: url("/assets/fonts/Lato_Light.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+/* Lato (light, regular) */
+@font-face {
+  font-family: Lato;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  src: url("/assets/fonts/Lato_Regular.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

@@ -1,0 +1,40 @@
+@import "variables";
+@import "fonts";
+@import "mixins";
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #FAFBFC;
+  transition: background-color 300ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  overflow-y: scroll;
+}
+
+#app {
+  position: relative;
+  min-height:100vh;
+  padding-bottom: 120px;
+  overflow: hidden;
+}
+
+a {
+  -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0
+}
+
+* {
+  box-sizing: border-box;
+}
+

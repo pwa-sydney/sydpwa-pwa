@@ -1,0 +1,19 @@
+{
+  "name": "Sydney Progressive Web Apps Meetup Group",
+  "short_name": "SydPWA",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#a7307f",
+  "icons": [{
+    "src": "./assets/favicons/android-chrome-192x192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  },
+  {
+    "src": "./assets/favicons/android-chrome-512x512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}

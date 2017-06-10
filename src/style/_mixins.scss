@@ -1,0 +1,34 @@
+// breakpoints
+@mixin breakpoint($class) {
+  @if $class == xs {
+	@media (max-width: $breakpoint-xs-max) { @content; }
+  }
+
+  @else if $class == sm {
+	@media (min-width: $breakpoint-sm) { @content; }
+  }
+
+  @else if $class == md {
+	@media (min-width: $breakpoint-md) { @content; }
+  }
+
+  @else if $class == lg {
+	@media (min-width: $breakpoint-lg ) { @content; }
+  }
+
+  @else if $class == xl {
+	@media (min-width: $breakpoint-xlg ) { @content; }
+  }
+
+  @else {
+	@warn "Breakpoint media queries mixin";
+  }
+}
+
+@mixin clearfix {
+  &:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+}
