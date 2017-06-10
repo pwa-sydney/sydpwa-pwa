@@ -5,3 +5,5 @@
 /coverage
 /.idea
 yarn.lock
+firebase.json
+.firebaserc

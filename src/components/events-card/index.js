@@ -1,42 +1,45 @@
 import { h, Component } from 'preact';
 import style from './style.scss'
 
+import events from './events.json';
+
+const List = ({time, title, speaker}) => (
+  <li>
+      <span className="time">
+        {time}
+    </span>
+    <div className="topic">
+      <span className="label">{title}</span>
+      <span className="speaker">{speaker}</span>
+    </div>
+  </li>
+)
+
 export default class NextEvent extends Component {
   render() {
     return (
-      <div className="events container">
-        <div className="date">
-          <div className="day">
-            21
+      <div className={`${style.events} content`}>
+        <div className={style.date}>
+          <div className={style.day}>
+            {events.dd}
           </div>
-          <div className="rest">
-            <span className="mmm">
-              June
+          <div className={style.rest}>
+            <span className={style.mmm}>
+              {events.month}
             </span>
             <span>
-              Wednesday
+              {events.day}
             </span>
           </div>
         </div>
-        <div className="agenda">
+        <div className={style.agenda}>
           <ul>
-            <li>
-              <span className="time">
-                6:00
-              </span>
-              <div className="topic">
-                Doors Open
-              </div>
-            </li>
+            {
+              events.agenda.map(item => (
+                <List {...item} />
+              ))
+            }
 
-            <li>
-              <span className="time">
-                6:00
-              </span>
-              <div className="topic">
-                Doors Open
-              </div>
-            </li>
           </ul>
         </div>
       </div>

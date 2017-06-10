@@ -1,0 +1,83 @@
+@import "~style/helper";
+
+
+.introCard {
+  background: #FFFFFF;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.10);
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.title {
+  letter-spacing: 18px;
+  font-size: 22px;
+  font-family: $font-sans;
+  color: $color-primary-dark;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 18px;
+  padding: 20px 0px;
+}
+
+.subtitle {
+  font-family: $font-sans;
+  color: $color-primary-dark;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  letter-spacing: 1.1px;
+
+}
+
+.logo {
+  width: 140px;
+  margin: 0 auto;
+  display: block;
+  vert-align: top;
+  @include breakpoint(md) {
+    width: 160px;
+  }
+  svg {
+    max-width: 100%;
+    width: 100%;
+    vertical-align: top;
+  }
+}
+
+.nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  a {
+    display: inline-block;
+    width: 33.333%;
+    line-height: 50px;
+    text-align: center;
+    color: $color-primary-dark;
+    position: relative;
+    text-transform: uppercase;
+
+    &.active {
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      color: $color-pink;
+      background-color: $color-purple;
+      background-image: linear-gradient(100deg, $color-purple  0%, $color-pink 100%);
+      &:after {
+        content: '';
+        height: 3px;
+        width: 80%;
+        left: 10%;
+        position: absolute;
+        bottom: -1px;
+        background-image: linear-gradient(100deg, $color-purple  0%, $color-pink 100%);
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "~style/helper";
+
+.socialise {
+  padding: 60px 25px;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  line-height: 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 220px;
+  background: transparent;
+  border: 1px solid;
+  margin-bottom: 25px;
+  &.slack {
+    transition: background 0.2s, color 0.2s;
+    color: #3eb991;
+    border-color: #3eb991;
+    &:hover {
+      background: #3eb991;
+      color: #fff;
+    }
+  }
+  &.meetup {
+    transition: background 0.2s, color 0.2s;
+    color: #e0393e;
+    border-color: #e0393e;
+    &:hover {
+      background: #e0393e;
+      color: #fff;
+    }
+  }
+  &.twitter {
+    transition: background 0.2s, color 0.2s;
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+    &:hover {
+      background: #1DA1F2;
+      color: #fff;
+    }
+  }
+}

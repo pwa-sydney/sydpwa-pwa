@@ -1,0 +1,26 @@
+{
+  "dd": "21",
+  "month": "July",
+  "day": "Wednesday",
+  "agenda": [
+    {
+      "time": "6:00pm",
+      "title": "Doors Open"
+    },
+    {
+      "time": "6:30pm",
+      "title": "Lighthouse, What is it and how to score the 💯",
+      "speaker": "Zouhir Chahoud, Senior Web Developer at Qantas"
+    },
+    {
+      "time": "7:00pm",
+      "title": "Why I chose PWAs & the web platform",
+      "speaker": "Tom Lee, Final Year Medicine Student & Co-founder of Circle"
+    },
+    {
+      "time": "7:20pm",
+      "title": "The future of PWA JavaScript tooling, Thoughts and Ideas.",
+      "speaker": "Vasyl Boroviak, Senior Web Developer at Safety Culture"
+    }
+  ]
+}

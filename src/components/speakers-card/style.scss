@@ -1,0 +1,45 @@
+@import "~style/helper";
+
+
+.speakers {
+  padding: 45px 25px;
+  ul {
+    padding: 0;
+    li {
+      padding: 15px;
+      display: flex;
+      align-items: flex-start;
+      padding-left: 25px;
+      .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+      .info {
+        padding-top: 5px;
+        padding-left: 25px;
+        span,a {
+          display: block;
+          width: 100%;
+          color: $color-primary-dark;
+          font-weight: 300;
+          &.name {
+            font-weight: 300;
+            font-size: 22px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            color: $color-pink;
+            background-color: $color-purple;
+            background-image: linear-gradient(100deg, $color-purple  0%, $color-pink 100%);
+          }
+        }
+      }
+    }
+  }
+}

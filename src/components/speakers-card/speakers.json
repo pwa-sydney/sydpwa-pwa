@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Jake Archibald",
+    "position": "Developer Advocate, Google",
+    "twitter": "https://twitter.com/jaffathecake",
+    "avatar": "/assets/images/speakers-jake.jpg"
+  },
+  {
+    "name": "Alex Russell",
+    "position": "Senior Staff Software Engineer, Google",
+    "twitter": "https://twitter.com/slightlylate",
+    "avatar": "/assets/images/speakers-alex.jpg"
+  },
+  {
+    "name": "Arthur Stolyar",
+    "position": "Author of Webpack Offline Plugin",
+    "twitter": "https://twitter.com/nekrtemplar",
+    "avatar": "/assets/images/speakers-arthur.jpg"
+  },
+  {
+    "name": "Vasyl Boroviak",
+    "position": "JavaScript Ninjaneer, Safety Culture",
+    "twitter": "https://twitter.com/kore_sar",
+    "avatar": "/assets/images/speakers-vasyl.jpg"
+  },
+  {
+    "name": "John Allsopp",
+    "position": "Author & CEO, Web Directions",
+    "twitter": "https://twitter.com/johnallsopp",
+    "avatar": "/assets/images/speakers-john.jpg"
+  },
+  {
+    "name": "Zouhir Chahoud",
+    "position": "Senior Web Developer, Qantas",
+    "twitter": "https://twitter.com/_zouhir",
+    "avatar": "/assets/images/speakers-zouhir.jpg"
+  }
+
+
+]

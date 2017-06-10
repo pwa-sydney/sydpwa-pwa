@@ -1,0 +1,22 @@
+@import "~style/helper";
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background: #FFFFFF;
+  box-shadow: 0 -2px 1px 0 rgba(0,0,0,0.03);
+  color: $color-primary-dark;
+  text-align: center;
+  font-weight: 300;
+  line-height: 50px;
+  span {
+    top: 2px;
+    position: relative;
+    padding: 0px 8px;
+  }
+  a {
+    color: $color-purple;
+  }
+}
