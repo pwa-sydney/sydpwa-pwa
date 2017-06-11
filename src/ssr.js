@@ -19,18 +19,6 @@ require('css-modules-require-hook')({
   processorOpts: { parser: require('postcss-scss').parse }
 });
 
-// allow importing text
-hook('.svg', (content, name) => {
-  content = content.toString('utf8');
-  content = content.replace(/"/g, "'");
-  content = content.replace(/\s+/g, " ");
-  content = content.replace(/[{}\|\\\^~\[\]`"<>#%]/g, function(match) {
-    return '%'+match[0].charCodeAt(0).toString(16).toUpperCase();
-  });
-
-  var data = 'data:image/svg+xml,' + content.trim();
-  return 'module.exports = ' + JSON.stringify(data);
-});
 
 // strip webpack loaders from import names
 let { Module } = require('module');
@@ -45,9 +33,6 @@ let App = require('./components/app').default;
 
 // restore resolution without loader stripping
 Module._resolveFilename = oldResolve;
-
-// remove text loader hook
-unhook('.svg');
 
 export default function render({ url = '/', ...props }) {
   location.href = location.path = url;
