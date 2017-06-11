@@ -13,14 +13,22 @@
       "speaker": "Zouhir Chahoud, Senior Web Developer at Qantas"
     },
     {
-      "time": "7:00pm",
+      "time": "6:55pm",
       "title": "Why I chose PWAs & the web platform",
       "speaker": "Tom Lee, Final Year Medicine Student & Co-founder of Circle"
     },
     {
-      "time": "7:20pm",
+      "time": "7:15pm",
       "title": "The future of PWA JavaScript tooling, Thoughts and Ideas.",
       "speaker": "Vasyl Boroviak, Senior Web Developer at Safety Culture"
+    },
+    {
+      "time": "7:35pm",
+      "title": "Wrapping up with Q&As & Chats"
+    },
+    {
+      "time": "8:00pm",
+      "title": "It's a school night, time to go home"
     }
   ]
 }

@@ -1,5 +1,11 @@
 [
   {
+    "name": "Tom Lee",
+    "position": "Final Year Medicine Student & Founder of Circle",
+    "twitter": "https://www.meetup.com/members/139283412/",
+    "avatar": "/assets/images/speakers-tom.jpeg"
+  },
+  {
     "name": "Jake Archibald",
     "position": "Developer Advocate, Google",
     "twitter": "https://twitter.com/jaffathecake",
@@ -35,6 +41,5 @@
     "twitter": "https://twitter.com/_zouhir",
     "avatar": "/assets/images/speakers-zouhir.jpg"
   }
-
 
 ]
