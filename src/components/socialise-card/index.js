@@ -7,7 +7,7 @@ export default class Socialise extends Component {
     return (
       <div className={`${style.socialise} content`}>
 
-        <a className={`${style.btn} slack`} href="https://now-examples-slackin-lmccajoxrq.now.sh/" rel="noopener" target="_blank">
+        <a className={`${style.btn} slack`} href="https://sydpwa.now.sh/" rel="noopener" target="_blank">
           Join our Slack
         </a>
 
