@@ -7,7 +7,7 @@ export default class Intro extends Component {
   render() {
     let { swapTab } = this.props
     return (
-      <div className={`${style.introCard} container`}>
+      <div role={'main'} className={`${style.introCard} container`}>
         <div className="title">
           SYDPWA
         </div>
@@ -33,7 +33,7 @@ export default class Intro extends Component {
           We're Sydney Progressive Web Apps Developer Group.
         </p>
         <nav className={style.nav}>
-          <div className="content">
+          <div role={'nav'} className="content">
             <Link activeClassName="active" href="/">
               Events
             </Link>

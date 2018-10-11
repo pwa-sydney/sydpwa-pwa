@@ -17,6 +17,6 @@
     padding: 0px 8px;
   }
   a {
-    color: $color-purple;
+    color: darken($color-purple, 30%);
   }
 }
