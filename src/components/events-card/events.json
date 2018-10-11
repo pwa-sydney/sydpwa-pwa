@@ -1,7 +1,7 @@
 {
-  "dd": "21",
-  "month": "June",
-  "day": "Wednesday",
+  "dd": "11",
+  "month": "October",
+  "day": "Thursday",
   "agenda": [
     {
       "time": "6:00pm",
@@ -9,22 +9,13 @@
     },
     {
       "time": "6:30pm",
-      "title": "Lighthouse, What is it and how to score the 💯",
-      "speaker": "Zouhir Chahoud, Senior Web Developer at Qantas"
+      "title": "Next Generation mobile retail with PWA and AMP",
+      "speaker": "Dean Maslic (Founder at Commerce Right) & James Semple (Lead Solutions Engineer at Mobify)"
     },
     {
-      "time": "6:55pm",
-      "title": "Why I chose PWAs & the web platform",
-      "speaker": "Tom Lee, Final Year Medicine Student & Co-founder of Circle"
-    },
-    {
-      "time": "7:15pm",
-      "title": "The future of PWA JavaScript tooling, Thoughts and Ideas.",
-      "speaker": "Vasyl Boroviak, Senior Web Developer at Safety Culture"
-    },
-    {
-      "time": "7:35pm",
-      "title": "Wrapping up with Q&As & Chats"
+      "time": "7:30pm",
+      "title": "0 to PWA in minutes",
+      "speaker": "Marcin Piekarski, Senior Frontend Engineer at Harvey Norman"
     },
     {
       "time": "8:00pm",
